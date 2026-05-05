@@ -1,0 +1,53 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# CUDA / native build outputs
+*.o
+*.so
+*.a
+*.cu.o
+*.cubin
+*.fatbin
+*.ptx
+*.sass
+*.exe
+
+# Nsight / profiling outputs
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# Benchmark outputs
+results/*.csv
+results/*.json
+results/*.png
+results/*.pdf
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
